@@ -63,6 +63,18 @@
   }
 
   console.log(divide(number1, number2));
+
+  function operate(number1, number2, operator) {
+    if(operator === '+') {
+      add(number1, number2);
+    } else if (operator === '-') {
+      subtract(number1, number2);
+    } else if( operator === '*') {
+      multiply(number1, number2);
+    } else if (operator === '/') {
+      divide(number1, number2);
+    }
+  }
 </script>
   
 </body>
