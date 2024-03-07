@@ -1,0 +1,28 @@
+.calculator-container {
+  background-color: darkslategray;
+  border: 1px solid black;
+  display:inline-block;
+}
+
+.result {
+  height: 20px;
+  background-color: blanchedalmond;
+  margin: 3px;
+  text-align: right;
+  padding-right: 3px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.key {
+  background-color:beige;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2px;
+}
+
+.key:hover {
+  background-color: rgba(245, 245, 220, 0.493);
+}
