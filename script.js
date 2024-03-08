@@ -30,7 +30,9 @@ function operate(numberString1, numberString2, operator) {
   } else if( operator === ' * ') {
     return multiply(number1, number2);
   } else if (operator === ' / ') {
-    return divide(number1, number2);
+    if(Number.isInteger(divide(number1, number2))) {
+      return divide(number1, number2);
+    } else { return Math.round(divide(number1, number2) *10)/10}
   }
 }
 
