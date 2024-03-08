@@ -30,6 +30,10 @@ function operate(numberString1, numberString2, operator) {
   } else if( operator === ' * ') {
     return multiply(number1, number2);
   } else if (operator === ' / ') {
+    if(number2 === 0) {
+      return document.querySelector('.js-input').innerHTML = '/ by 0 not possible';
+      
+    }
     if(Number.isInteger(divide(number1, number2))) {
       return divide(number1, number2);
     } else { return Math.round(divide(number1, number2) *10)/10}
@@ -78,6 +82,10 @@ document.querySelectorAll('.js-digit').forEach((digit) => {
 let result = '';
 
 document.querySelector('.js-equals').addEventListener('click', () => {
+  if(!numberString2) {
+    document.querySelector('.js-input').innerHTML = numberString1;
+    return
+  }
   result = operate(numberString1, numberString2, operator);
   document.querySelector('.js-input').innerHTML = result;
 })
