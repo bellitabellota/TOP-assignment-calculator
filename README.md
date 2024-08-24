@@ -1,3 +1,9 @@
+Preview
+
+<img src="https://github.com/bellitabellota/TOP-assignment-calculator/blob/main/Calculator.gif" />
+
+Want to try yourself? Visit this [link](https://bellitabellota.github.io/TOP-assignment-calculator/).
+
 # Calculator
 
 ## Assignment instructions from The Odin Project (TOP)
