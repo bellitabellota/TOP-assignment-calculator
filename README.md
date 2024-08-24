@@ -1,6 +1,6 @@
 Preview
 
-<img src="https://github.com/bellitabellota/TOP-assignment-calculator/blob/main/Calculator.gif" />
+<img src="https://github.com/bellitabellota/TOP-assignment-calculator/blob/main/calculator%202.gif" />
 
 Want to try yourself? Visit this [link](https://bellitabellota.github.io/TOP-assignment-calculator/).
 
